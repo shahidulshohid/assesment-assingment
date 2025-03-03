@@ -107,3 +107,15 @@ function multiply(x, y=2){
 console.log(multiply(5))
 console.log(multiply(5, undefined))
 console.log(multiply(5, null))
+
+// example sixteen 
+const a = [1, 2, 3]
+const b = a 
+b.push(4)
+console.log(a)
+
+//example seventeen 
+let x = 1 
+let y = 2 
+x = x + y++
+console.log(x, y)
