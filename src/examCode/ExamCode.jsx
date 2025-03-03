@@ -135,3 +135,16 @@ console.log(x[0], y[0])
 const numbers = [1, 2, 3]
 numbers[10] = 10 
 console.log(numbers.length)
+
+// example twenty one 
+let numbers = [1, 2, 3]
+numbers = numbers.map(num => num * 2)
+console.log(numbers)
+
+// example twenty two 
+const x = 10 
+function foo(){
+  console.log(x)
+  const x = 20 
+}
+foo()
