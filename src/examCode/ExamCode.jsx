@@ -43,4 +43,23 @@ const count2 = counter()
 count2()
 count2()
 
-// five 
+// example five 
+console.log(foo)
+const foo = "hello"
+console.log(foo)
+
+// example six 
+app.get('/data', async(req, res) => {
+  const result = fetch('https://api.example.com/data')
+    res.send((await result).json())
+})
+
+// example seven 
+app.use((req, res, nex) => {
+  console.log("Request, Received")
+})
+
+// example eight 
+useEffect(() => {
+  console.log("Effect runs")
+}, [user])

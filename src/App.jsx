@@ -2,9 +2,7 @@
 import "./App.css";
 
 function App() {
-console.log(foo)
-const foo = "hello"
-console.log(foo)
+
 
 
   return (
