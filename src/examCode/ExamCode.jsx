@@ -68,3 +68,9 @@ useEffect(() => {
 function sum(...numbers, extra){
   return numbers.reduce((acc, num) => acc + sum, 0) + extra
 }
+
+// example ten 
+const [user, setUser] = useState({name:'Alice', age:25})
+function updateAge(){
+  setUser({age:30})
+}
