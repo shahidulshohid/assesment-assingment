@@ -88,3 +88,22 @@ function MyComponent(){
 <div onclick="console.log('Div Clicked')">
   <button onclick="console.log('Button Clicked')">Click Me</button>
 </div>
+
+//example thirteen 
+console.log(1 + '2' + 3)
+
+//example fourteen 
+function fetchData(){
+  let data
+  fetch('https://api.example.com/data')
+  .then(response => response.json())
+  .then(json => data = json)
+  return data
+}
+//example fifteen 
+function multiply(x, y=2){
+  return x * y
+}
+console.log(multiply(5))
+console.log(multiply(5, undefined))
+console.log(multiply(5, null))
