@@ -119,3 +119,19 @@ let x = 1
 let y = 2 
 x = x + y++
 console.log(x, y)
+
+// example eighteen 
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+
+// example nineteen 
+let x = [1, 2, 3]
+let y = [...x]
+y[0] = 4 
+console.log(x[0], y[0])
+
+// example twenty 
+const numbers = [1, 2, 3]
+numbers[10] = 10 
+console.log(numbers.length)
