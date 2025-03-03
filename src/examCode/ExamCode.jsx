@@ -1,6 +1,6 @@
 // example one
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 console.log("Start");
 setTimeout(() => {
@@ -74,3 +74,17 @@ const [user, setUser] = useState({name:'Alice', age:25})
 function updateAge(){
   setUser({age:30})
 }
+
+// example eleven 
+function MyComponent(){
+  const inputRef = useRef()
+  useEffect(()=> {
+    inputRef.current.focus()
+  }, [])
+  return <input/>
+}
+
+// example twelve 
+<div onclick="console.log('Div Clicked')">
+  <button onclick="console.log('Button Clicked')">Click Me</button>
+</div>
