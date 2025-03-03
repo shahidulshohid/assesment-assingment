@@ -151,3 +151,9 @@ foo()
 
 // example twenty three 
 db.collection.find({name: 'Alice'}).limit('5')
+
+// example twenty four 
+h1{
+  font-size:24px;
+  font-size:30px;
+}
