@@ -148,3 +148,6 @@ function foo(){
   const x = 20 
 }
 foo()
+
+// example twenty three 
+db.collection.find({name: 'Alice'}).limit('5')
