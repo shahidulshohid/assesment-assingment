@@ -63,3 +63,8 @@ app.use((req, res, nex) => {
 useEffect(() => {
   console.log("Effect runs")
 }, [user])
+
+// example nine 
+function sum(...numbers, extra){
+  return numbers.reduce((acc, num) => acc + sum, 0) + extra
+}
